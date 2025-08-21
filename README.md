@@ -1,4 +1,4 @@
--Commerce MERN App (En desarrollo)
+-Commerce MERN App 
 Aplicación web de comercio electrónico desarrollada con el stack MERN, enfocada en ofrecer una experiencia moderna, rápida y escalable tanto para usuarios como para administradores.
 
 🔧 Tecnologías utilizadas:
