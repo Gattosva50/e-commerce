@@ -1,44 +1,53 @@
--Commerce MERN App 
-Aplicación web de comercio electrónico desarrollada con el stack MERN, enfocada en ofrecer una experiencia moderna, rápida y escalable tanto para usuarios como para administradores.
+# 🛒 E-Commerce Web Application
 
-🔧 Tecnologías utilizadas:
-Frontend: React, React Router, Axios, Context API o Redux
+A modern full-stack e-commerce platform built with **React** (frontend) and **Node.js/Express** (backend).  
+This project demonstrates a complete workflow including product management, user authentication, and cart functionality.
 
-Backend: Node.js, Express.js
+---
 
-Base de datos: MongoDB (con Mongoose)
+## 🚀 Live Demo
 
-Autenticación: JSON Web Tokens (JWT)
+🔗 [Visit Deployed Frontend](https://gattosva50.github.io/e-commerce/)  
+*(Backend coming soon — currently frontend is live)*
 
-Otros: Bcrypt, Dotenv, Multer, Cloudinary (opcional para imágenes), Stripe o PayPal (para pagos)
+---
 
-🧩 Funcionalidades planificadas:
-Registro e inicio de sesión de usuarios con autenticación segura (JWT + Bcrypt)
+## ✨ Features
 
-CRUD completo de productos (crear, editar, eliminar)
+- **Product Catalog:** View available products with images, prices, and details.
+- **Shopping Cart:** Add/remove items, update quantities, calculate totals.
+- **User Authentication:** Sign up, login, and persistent session (JWT-based).
+- **Responsive Design:** Optimized for desktop, tablet, and mobile.
+- **Scalable Backend (Planned):** Node.js/Express REST API with MongoDB or PostgreSQL.
 
-Filtrado y búsqueda de productos por categoría, precio, nombre
+---
 
-Carrito de compras persistente
+## 🛠️ Tech Stack
 
-Gestión de pedidos y proceso de checkout
+**Frontend:**
+- React (Vite)
+- React Router
+- Context API / Hooks
+- Tailwind CSS
 
-Panel de administrador para gestionar usuarios, productos y pedidos
+**Backend (in progress):**
+- Node.js, Express
+- MongoDB or PostgreSQL
+- JWT Authentication
 
-Subida de imágenes de productos
+---
 
-Integración con pasarela de pagos (Stripe/PayPal)
+## 🧑‍💻 Installation (Run Locally)
 
-Diseño responsive y enfoque mobile-first
+### Frontend
+```bash
+git clone https://github.com/Gattosva50/e-commerce.git
+cd e-commerce/frontend
+npm install
+npm run dev
 
-🎯 Objetivos del proyecto:
-Consolidar conocimientos en desarrollo fullstack con MERN
+### Backtend
+cd ../backend
+npm install
+npm run dev
 
-Aplicar buenas prácticas de arquitectura MVC
-
-Simular un flujo real de compra y administración de tienda online
-
-Mejorar experiencia con integración de APIs externas (pagos, imágenes)
-
-🧪 Estado actual:
-Módulos de autenticación y backend API funcionales. Se está implementando la interfaz de usuario y las funcionalidades del carrito de compras.
